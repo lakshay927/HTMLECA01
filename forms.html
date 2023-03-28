@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Forms</h1>
+    <form method="get" target="_blank">
+      <label for="name">Name</label>
+      <input
+        id="name"
+        type="text"
+        placeholder="Rahul"
+        value="Lakshay"
+        name="name"
+        disabled
+      /><br /><br />
+      <label>Email</label>
+      <input
+        type="email"
+        name="email"
+        placeholder="abc@abc.com"
+        required
+      /><br /><br />
+      <label>Number</label>
+      <input type="number" name="number" placeholder="123" /><br /><br />
+      <label>Password</label>
+      <input type="password" name="pass" placeholder="password" /><br /><br />
+      <label>Date</label> <input type="date" /><br /><br />
+      <label>Time</label> <input type="time" /><br /><br />
+      <label>DateTime</label> <input type="datetime" /><br /><br />
+      <label>Date time local</label> <input type="datetime-local" /><br /><br />
+
+      <label>Select your fav Sport</label><br />
+      <label>Cricket</label>
+      <input type="checkbox" name="sports" value="Cricket" /><br /><br />
+      <label>Football</label>
+      <input type="checkbox" name="sports" value="Football" /><br /><br />
+      <label>Hockey</label>
+      <input type="checkbox" name="sports" value="Hockey" /><br /><br />
+      <label>Tennis</label>
+      <input type="checkbox" name="sports" value="Tennis" /><br /><br />
+
+      <label>Which of the month has 28 days</label><br />
+      <label>January</label>
+      <input type="radio" name="month" value="January" /><br /><br />
+      <label>February</label>
+      <input type="radio" name="month" value="February" /><br /><br />
+      <label>March</label>
+      <input type="radio" name="month" value="March" /><br /><br />
+      <label>April</label>
+      <input type="radio" name="month" value="April" /><br /><br />
+
+      <label>Upload your image</label>
+      <input type="file" name="profile" /><br /><br />
+      <label>Your Profile URL</label>
+      <input type="url" name="profileurl" /><br /><br />
+
+      <select name="drink">
+        <option value="" hidden disabled selected>CHoose your drink</option>
+        <optgroup label="Hot Drinks">
+          <option value="tea">Hot Adrak Chai</option>
+          <option value="coffee">Hot Chochlate coffee</option>
+          <option value="water">Water</option>
+        </optgroup>
+        <optgroup label="Cold Drinks">
+          <option value="tea">Ice Tea</option>
+          <option value="coffee">Cold ChocolateCoffee</option>
+          <option value="water">Water</option>
+        </optgroup>
+      </select>
+
+      <textarea
+        id="10"
+        name="message"
+        placeholder="Enter your message"
+        rows="10"
+        cols="50"
+      ></textarea>
+
+      <a href="./index.html"> <button type="button">Click here</button></a>
+      <input type="button" value="this is a button" />
+
+      <button type="reset">Reset button</button>
+      <input type="submit" />
+    </form>
+  </body>
+</html>
